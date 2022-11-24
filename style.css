@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Regular;
+    src: url(IBM-Plex-Mono/IBMPlexMono-Regular.otf);
+}
+@font-face {
+  font-family: Bold;
+  src: url(IBM-Plex-Mono/IBMPlexMono-Bold.otf);
+}
+
+* {
+    font-family: Regular;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.link {
+    color: black;
+    font-size: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.text {
+    color: black;
+    font-size: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
