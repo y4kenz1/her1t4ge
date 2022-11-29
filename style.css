@@ -37,9 +37,18 @@ a:hover {
 .link {
     color: black;
     font-size: 3rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 1rem;
+}
+
+.divide {
+    color: black;
+    font-size: 3rem;
+    display: inline;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 1rem;
 }
 
@@ -51,4 +60,10 @@ a:hover {
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 0px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
